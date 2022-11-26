@@ -36,7 +36,7 @@ let position = 0;
 let delay = check.delay;
 const stepCheck = check.step;
 
-for (i = 0; i < check.amount; i += 1) {
+for (let i = 0; i < check.amount; i += 1) {
   position += 1;
   delay += stepCheck;
   console.log(delay)
